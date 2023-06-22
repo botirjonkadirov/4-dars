@@ -1,0 +1,43 @@
+.main-wrapper {
+    width: 752px;
+    color: rgba(91, 91, 91, 1);
+}
+.main-heading {
+    font-size: 6.4rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+    color: 
+    rgba(29, 52, 68, 1);
+}
+.main-text-one {
+    margin-bottom: 4.8rem;
+}
+.main-text-two {
+    margin-bottom: 2.4rem;
+}
+.main-text-three {
+    margin-bottom: 4rem;
+}
+.main-heading-two {
+    margin-bottom: 2.4rem;
+    color: 
+    rgba(13, 19, 23, 1);
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+.main-text-fore {
+    margin-bottom: 2.4rem;
+}
+.main-text-five {
+    margin-bottom: 4rem;
+}
+.main-heading-three {
+    margin-bottom: 2.4rem;
+    color: 
+    rgba(13, 19, 23, 1);
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+.main-text-six {
+    margin-bottom: 12.8rem;
+}

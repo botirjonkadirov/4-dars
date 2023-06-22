@@ -1,0 +1,271 @@
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+   
+/* inter-tight-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-tight-v3-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-tight-500italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter Tight';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/inter-tight-v3-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-tight-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-tight-v3-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-tight-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-tight-v3-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  *::after, *::before, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+    font-size: 62.6%;
+
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 1380px;
+  }
+  .btn {
+    border-radius: 3.1rem;
+    padding: 1.8rem 3.2rem;
+    font-weight: 600;
+  }
+
+  .active {
+    color: var(--orange-color);
+  }
+
+  *:focus {
+    outline: 2px dotted #ccc;
+    outline-offset: 5px;
+  }
+  img {
+    display: flex;
+    object-fit: cover;
+  }
+  ul, ol {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  a:hover {
+    transform: rotate(-5deg);
+  }
+
+
+  body {
+    font-family: 'poppins', sans-serif;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+  }
+   :root {
+    --orange-color: #f58a07;
+    --orange-light-color: rgba(245, 138, 7, 0.1);
+    --sections-bg: #dceaf5;
+    --title-black: #0d1317;
+    --title-dark-blue: #1d3444;
+    --main-body-color: #5b5b5b;
+    --border-pale-color: #a8bccc;
+    --white-color-: #ffffff;
+    --main-font: 'poppins', sans-serif;
+    --secondary-font: 'inter', sans-serif;
+   }
+   .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    
+   }
+   .header-ul-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.2rem;
+   }
+   .header-nav-yellow {
+    background-color: 
+    rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding: 1.8rem 3.2rem;
+    color: var(--orange-color);
+   }
+   .header-ul {
+    display: flex;
+    gap: 4rem;
+   }
+.site-nav-link {
+    color: rgba(57, 65, 73, 1);
+}
+   .site-nav-link:hover {
+    color: var(--orange-color);
+   }
+   .site-nav-link:focus {
+    opacity: 0.6;
+   }
+   main {
+    flex-grow: 1;
+   }
+   .footer {
+    background-color: #063255 ;
+    min-height: 463px;
+    position: relative;
+    color: #ffffff;
+   }
+   .site-nav-footer-link {
+    color: #ffffff;
+   }
+   .site-nav-footer-link:hover {
+    color: var(--orange-color);
+   }
+   .footer-wrapper-container {
+    display: flex;
+    margin-top: 8rem;
+   }
+   .footer-left-image {
+    position: absolute;
+    bottom: 0;
+    top: 31.9rem;
+   }
+   .footer-right-image {
+    position: absolute;
+    right: 0;
+    top: 3.8rem;
+   }
+   .footer-item-one {
+    margin-right: 11rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+   }
+.footer-text {
+  margin-bottom: 8rem;
+}
+   .footer-item-second {
+    margin-right: 10.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+   }
+   .footer-item-three {
+    margin-right: 14rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+   }
+   .footer-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+   }
+   .footer-item-fore {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   }
+  .join {
+    margin-bottom: 2.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .footer-heading {
+    letter-spacing: -3;
+    font-size: 3.6rem;
+    font-weight: 600;
+  }
+ .footer-item-three a {
+    color: #ffffff;
+ }
+ .footer-input-email {
+    width: 342px; height: 54px;
+    border-radius: 31px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 3.2rem;
+    margin-bottom: 1.6rem;
+ }
+ .footer-email {
+    border-style: none;
+ }
+ .footer-button {
+    width: 156px; height: 54px;
+    border-radius: 31px;
+    background-color: var(--orange-color);
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.8rem;
+ }
+ .footer-site-nav a {
+    color: #ffffff;
+ }
+ .site-nav-footer-link-two {
+    margin-right: o;
+ }
+ .site-nav-footer-link-one {
+    margin-right: 3.1rem;
+ }
+ .footer-site-nav {
+    position: absolute;
+    bottom: 8rem;
+    right: 0;
+ }
+   
+    
+
