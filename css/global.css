@@ -303,6 +303,7 @@
   }
   .footer-left-image {
     top: auto;
+    bottom: 0;
   }
   .footer-item-three {
     position: absolute;
