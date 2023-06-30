@@ -270,6 +270,7 @@
  /* media */
  @media (max-width: 1390px) {
   .footer {
+    flex-grow: 1;
     width: auto;
     height: auto;
     display: flex;
