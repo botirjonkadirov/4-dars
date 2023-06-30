@@ -162,7 +162,7 @@
    }
    .footer {
     background-color: #063255 ;
-    min-height: 463px;
+    /* min-height: 463px; */
     position: relative;
     color: #ffffff;
    }
@@ -268,7 +268,7 @@
  /* media */
  @media (max-width: 1390px) {
   .footer {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     width: auto;
     height: auto;
     height: 100%;
@@ -349,6 +349,10 @@
   width: 126px; height: 24px;
   border-radius: 31px;
   font-size: 0.8rem;
+ }
+
+ .footer-item-one {
+  gap: 0.6rem;
  }
 
   .footer {
