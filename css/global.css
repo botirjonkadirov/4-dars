@@ -387,6 +387,9 @@
   .header-nav-yellow {
     padding: 0.9rem 1.8rem;
   }
+  .footer-form {
+    scale: 0.8;
+  }
  }
  @media (max-width: 605px) {
   body {
@@ -395,9 +398,7 @@
   .footer-heading {
     font-size: 1.8rem;
   }
-  .footer-form {
-    scale: 0.8;
-  }
+ 
  }
  @media (max-width: 445px) {
   .header-ul-main {
