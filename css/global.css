@@ -331,6 +331,7 @@
   }
   .footer {
     height: 100%;
+    height: fit-content;
   }
   .footer-item-fore {
     display: flex;
