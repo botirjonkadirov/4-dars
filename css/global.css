@@ -255,9 +255,7 @@
  .footer-site-nav a {
     color: #ffffff;
  }
- .site-nav-footer-link-two {
-    margin-right: o;
- }
+
  .site-nav-footer-link-one {
     margin-right: 3.1rem;
  }
@@ -338,8 +336,27 @@
     margin-top: 2rem;
     height: 100%;
   }
+  .footer-input-email {
+    width: 150px; height: 28px;
+    border-radius: 31px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 1.8rem;
+    margin-bottom: 0.6rem;
+ }
+ .footer-button {
+  width: 126px; height: 24px;
+  border-radius: 31px;
+  font-size: 0.8rem;
+ }
+
   .footer {
     height: 100%;
+  }
+  .join {
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
   }
   .header-ul-main {
     gap: 0.6rem;
@@ -399,9 +416,7 @@
   .header-nav-yellow {
     padding: 0.9rem 1.8rem;
   }
-  .footer-form {
-    scale: 0.5;
-  }
+  
   .footer-heading {
     font-size: 1.6rem;
   }
@@ -422,10 +437,7 @@
   .header-ul-main {
     flex-direction: column;
   }
- .footer-form {
-  scale: 0.6;
-  width: 100%;
-}
+
 body {
   font-size: 0.7rem;
 }
