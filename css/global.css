@@ -341,6 +341,12 @@
   .footer {
     height: 100%;
   }
+  .header-ul-main {
+    gap: 0.6rem;
+  }
+  .header-ul {
+    gap: 0.6rem;
+  }
   .footer-text {
     margin-bottom: 1rem;
   }
