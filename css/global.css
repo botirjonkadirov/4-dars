@@ -328,6 +328,9 @@
     align-items: center;
     gap: 2rem;
   }
+  .footer {
+    flex-grow: 1;
+  }
   .footer-item-fore {
     display: flex;
     align-items: center;
