@@ -334,7 +334,6 @@
     margin-right: auto;
   }
   .footer-item-second {
-    display: block;
     position: static;
     margin-left: auto;
     margin-right: auto;
@@ -347,7 +346,6 @@
     margin-right: auto;
   }
   .footer-item-three {
-    display: block;
     position: static;
     margin-left: auto;
     margin-right: auto;
@@ -393,25 +391,34 @@
   .footer-form {
     scale: 0.8;
   }
-  .header-nav {
-    scale: 0.8rem;
-  }
  }
  @media (max-width: 445px) {
   .header-ul-main {
     flex-direction: column;
   }
-  .footer {
-    display: flex;
- } 
- 
  .footer-form {
   scale: 0.6;
+  width: 100%;
 }
 body {
   font-size: 0.7rem;
 }
+img {
+  scale: 0.5;
 }
-   
+.join {
+  font-size: 0.9rem;
+}
+.footer-heading {
+  font-size: 1.2rem;
+}
+.footer-wrapper-container {
+  width: 100%;
+}
+.footer-item-fore {
+  width: 100%;
+}
+ }
+
     
 
