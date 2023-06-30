@@ -355,7 +355,13 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .footer-left-image {
+    /* display: none; */
 
+  }
+  .footer-right-image {
+    /* display: none; */
+  }
   .footer-form {
     margin-left: auto;
     margin-right: auto;
