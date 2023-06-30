@@ -335,11 +335,13 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    margin-top: 2rem;
+    height: 100%;
   }
   .footer {
     height: 100%;
-    height: max-content;
   }
+
   .footer-item-fore {
     display: flex;
     align-items: center;
