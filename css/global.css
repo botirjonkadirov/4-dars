@@ -312,7 +312,7 @@
     left: 30rem;
   }
   .footer {
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
   body {
     font-size: 1.2rem;
@@ -400,15 +400,21 @@
     padding: 0.9rem 1.8rem;
   }
   .footer-form {
-    scale: 0.8;
+    scale: 0.5;
+  }
+  .footer-heading {
+    font-size: 1.6rem;
+  }
+  body {
+    font-size: 0.9rem;
   }
  }
  @media (max-width: 605px) {
   body {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .footer-heading {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
  
  }
