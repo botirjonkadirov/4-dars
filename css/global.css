@@ -224,7 +224,7 @@
     font-weight: 600;
   }
   .footer-heading {
-    letter-spacing: -3;
+    /* letter-spacing: -3; */
     font-size: 3.6rem;
     font-weight: 600;
   }
@@ -341,7 +341,9 @@
   .footer {
     height: 100%;
   }
-
+  .footer-text {
+    margin-bottom: 1rem;
+  }
   .footer-item-fore {
     display: flex;
     align-items: center;
