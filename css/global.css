@@ -273,7 +273,7 @@
     flex-grow: 1;
     width: auto;
     height: auto;
-    /* height: 100%; */
+    height: 100%;
     display: flex;
     position: relative;
   }
@@ -312,7 +312,7 @@
     left: 30rem;
   }
   .footer {
-    /* flex-grow: 1; */
+    flex-grow: 1;
   }
   body {
     font-size: 1.2rem;
@@ -331,7 +331,7 @@
   }
   .footer {
     height: 100%;
-    height: fit-content;
+    height: max-content;
   }
   .footer-item-fore {
     display: flex;
