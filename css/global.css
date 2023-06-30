@@ -356,11 +356,11 @@
     margin-right: auto;
   }
   .footer-left-image {
-    /* display: none; */
+    display: none;
 
   }
   .footer-right-image {
-    /* display: none; */
+    display: none;
   }
   .footer-form {
     margin-left: auto;
