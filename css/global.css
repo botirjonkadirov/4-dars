@@ -269,7 +269,7 @@
   
   .hero {
     background-color: var(--sections-bg);
-
+    margin-top: 1.6rem;
   }
   .hero-container {
     display: flex;
