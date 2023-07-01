@@ -283,11 +283,10 @@
     letter-spacing: -3%;
     color: var(--title-dark-blue);
     width: 576px;
-    background-color: #f58a07;
+    margin: 0;
   }
   .hero-image {
    margin-top: 5.8rem;
-   background-color: aqua;
   }
   .hero-item-one {
     width: 576px;
@@ -296,13 +295,16 @@
     margin-right: -3.1rem;
     margin-top: 11.7rem;
     margin-bottom: 14.7rem;
-    background-color: aqua;
   }
   .hero-text {
     font-weight: 500;
     font-size: 1.8rem;
-    padding-top: 1.2rem;
+    margin-top: 1.2rem;
     margin-bottom: 5rem;
+    color: var(--main-body-color);
+  }
+  .hero-nav-two {
+    color: var(--title-dark-blue);
   }
   .hero-nav {
     padding: 1.8rem 3.1rem 1.9rem 3.2rem;
