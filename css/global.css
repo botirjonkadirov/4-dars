@@ -328,6 +328,21 @@
 
 
  /* media */
+
+ /* hero */
+ @media (max-width: 1710px) {
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  .hero-item-one {
+    scale: 0.7;
+  }
+  .hero-container {
+    height: auto;
+  }
+ }
+
  @media (max-width: 1390px) {
   .footer {
     /* flex-grow: 1; */
